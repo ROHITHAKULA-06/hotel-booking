@@ -281,7 +281,7 @@ public class hotel {
           food ff=new food();
           do
           {
-          System.out.println("press 1.for motel booking or to order food press 2");
+          System.out.println("press 1.for hotel booking or 2. for ordering food");
           input=c.sc.nextInt();
           if(input==1)
           c.ro();
@@ -298,7 +298,6 @@ public class hotel {
         choice=c.sc.next();
         }while(choice.equalsIgnoreCase("yes"));
 Scanner s=new Scanner(System.in);
-System.out.println("Hai");
         c.check(ff.amt);
     System.out.println("\n\n\t\tenter the number of bill or the name you want to save this bill as");
     String n=s.next();
@@ -314,7 +313,7 @@ System.out.println("Hai");
     double tbill=c.ant+c.aa+c.tax;
     out.println("total bill is :"+(tbill+500));
     out.println("thank you for staying in our motal");
-    out.println("hope u enjoyed in our motal");
+    out.println("hope u enjoyed staying in our hotel");
     out.println("hope u vist again");
     out.close(); 
     }
